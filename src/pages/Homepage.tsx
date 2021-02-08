@@ -1,9 +1,12 @@
 import React from 'react'
-import Directory from '../components/directory/directory.component'
+import { RouteComponentProps } from 'react-router-dom'
+import Directory from '../components/directory'
 
 import './homepage.styles.scss'
 
-const HomePage = () => {
+interface IHomePageProps extends RouteComponentProps { }
+
+const HomePage: React.FunctionComponent<IHomePageProps> = ({ history }) => {
   return (
     <div className="homepage">
       <Directory />
