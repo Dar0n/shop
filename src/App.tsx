@@ -1,5 +1,5 @@
 import React from 'react'
-import HomePage from './Homepage'
+import HomePage from './pages/Homepage'
 
 function App() {
   // console.log(process.env.FAST_FRESH)
