@@ -1,6 +1,6 @@
 import React from 'react'
 import { RouteComponentProps } from 'react-router-dom'
-import Directory from '../components/directory'
+import Directory from '../../components/directory'
 
 import './homepage.styles.scss'
 
